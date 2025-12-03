@@ -1,0 +1,83 @@
+body {
+   
+    background-image: url('../lista-Js/imagem/lui.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+    
+    min-height: 100vh;
+    margin: 0; 
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+    font-family: sans-serif;
+    color: #ffcece;
+}
+
+.container {
+    
+    background-color: rgba(168, 116, 116, 0.9); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(233, 186, 186, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+
+
+h1 {
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block; 
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resp {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
+body{
+   background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+
+}
